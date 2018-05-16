@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Javajam</title>
+    <link rel="stylesheet" href="./css/txiong55_javajam4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>JavaJam Coffee House</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="music.html">Music</a>
+          </li>
+          <li>
+            <a href="jobs.html">Jobs</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+       <h2> Jobs at JavaJam</h2>
+        <p>Want to work at JavaJam?  Fill out the form below to start your application. Required
+        fields are marked with an asterisk *</p>
+        <form method="post" action="http://webdevbasics.net/scripts/javajam.php">
+                <fieldset>
+                    <label for="myName">*Name:</label>
+                    <input type="text" name="myName" id="myName" required="required">
+                        <br>
+                    <label for="myEmail">*E-mail:</label>
+                    <input type="text" name="myEmail" id="myEmail" required="required">
+                        <br>
+                    <label for="theDate">Start Date</label>
+                    <input type="date" name="theDate" id="theDate">
+                        <br>
+                    <label for="myExperience">*Experience:</label>
+                    <textarea name="myExperience" id="myExperience"></textarea>
+                </fieldset>
+             <input type="submit" name="submit" id="submit" value="Apply Now">   
+        </form>   
+
+      </main>
+      <footer>
+        <small>Copyright &copy; 2016 JavaJam Coffee House</small><br>
+        <a href="mailto:tony@xiong.com"><small>tony@xiong.com</small><br></a>
+      </footer>
+    </div>
+  </body>
+</html>
